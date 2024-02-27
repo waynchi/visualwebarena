@@ -142,3 +142,5 @@ config_files/test_shopping
 config_files/test_classifieds.json
 config_files/test_reddit.json
 config_files/test_shopping.json
+config_files/*
+results/*

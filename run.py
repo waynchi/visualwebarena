@@ -2,6 +2,7 @@
 
 Modified from https://github.com/web-arena-x/webarena/blob/main/run.py.
 """
+
 import argparse
 import glob
 import json
@@ -63,9 +64,7 @@ def config() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Run end-to-end evaluation on the benchmark"
     )
-    parser.add_argument(
-        "--render", action="store_true", help="Render the browser"
-    )
+    parser.add_argument("--render", action="store_true", help="Render the browser")
 
     parser.add_argument(
         "--slow_mo",
@@ -121,11 +120,12 @@ def config() -> argparse.Namespace:
     )
 
     parser.add_argument("--test_config_base_dir", type=str)
+    parser.add_argument("--successful_tasks_file", type=str)
 
     parser.add_argument(
         "--eval_captioning_model_device",
         type=str,
-        default="cpu",
+        default="cuda",
         choices=["cpu", "cuda"],
         help="Device to run eval captioning model on. By default, runs it on CPU.",
     )
@@ -210,10 +210,7 @@ def early_stop(
     last_k_actions = trajectory[1::2][-k:]  # type: ignore[assignment]
     if len(last_k_actions) >= k:
         if all(
-            [
-                action["action_type"] == ActionTypes.NONE
-                for action in last_k_actions
-            ]
+            [action["action_type"] == ActionTypes.NONE for action in last_k_actions]
         ):
             return True, f"Failed to parse actions for {k} times"
 
@@ -229,30 +226,19 @@ def early_stop(
 
     if last_action["action_type"] != ActionTypes.TYPE:
         if len(last_k_actions) >= k:
-            if all(
-                [
-                    is_equivalent(action, last_action)
-                    for action in last_k_actions
-                ]
-            ):
+            if all([is_equivalent(action, last_action) for action in last_k_actions]):
                 return True, f"Same action for {k} times"
 
     else:
         # check the action sequence
-        if (
-            sum([is_equivalent(action, last_action) for action in action_seq])
-            >= k
-        ):
+        if sum([is_equivalent(action, last_action) for action in action_seq]) >= k:
             return True, f"Same typing action for {k} times"
 
     return False, ""
 
 
 @beartype
-def test(
-    args: argparse.Namespace,
-    config_file_list: list[str]
-) -> None:
+def test(args: argparse.Namespace, config_file_list: list[str]) -> None:
     scores = []
     max_steps = args.max_steps
 
@@ -274,28 +260,29 @@ def test(
         caption_image_fn = None
 
     # Load a (possibly different) captioning model for running VQA evals.
-    if (
-        caption_image_fn
-        and args.eval_captioning_model == args.captioning_model
-    ):
+    if caption_image_fn and args.eval_captioning_model == args.captioning_model:
         eval_caption_image_fn = caption_image_fn
     else:
         eval_caption_image_fn = image_utils.get_captioning_fn(
             args.eval_captioning_model_device,
-            torch.float16
-            if (
-                torch.cuda.is_available()
-                and args.eval_captioning_model_device == "cuda"
-            )
-            else torch.float32,
+            (
+                torch.float16
+                if (
+                    torch.cuda.is_available()
+                    and args.eval_captioning_model_device == "cuda"
+                )
+                else torch.float32
+            ),
             args.eval_captioning_model,
         )
 
     agent = construct_agent(
         args,
-        captioning_fn=caption_image_fn
-        if args.observation_type == "accessibility_tree_with_captioner"
-        else None,
+        captioning_fn=(
+            caption_image_fn
+            if args.observation_type == "accessibility_tree_with_captioner"
+            else None
+        ),
     )  # NOTE: captioning_fn here is used for captioning input images.
 
     env = ScriptBrowserEnv(
@@ -314,6 +301,7 @@ def test(
         captioning_fn=caption_image_fn,
     )
 
+    results_json = {}
     for config_file in config_file_list:
         try:
             render_helper = RenderHelper(
@@ -335,10 +323,12 @@ def test(
                     for image_path in image_paths:
                         # Load image either from the web or from a local path.
                         if image_path.startswith("http"):
-                            input_image = Image.open(requests.get(image_path, stream=True).raw)
+                            input_image = Image.open(
+                                requests.get(image_path, stream=True).raw
+                            )
                         else:
                             input_image = Image.open(image_path)
-                        
+
                         images.append(input_image)
 
             logger.info(f"[Config file]: {config_file}")
@@ -376,9 +366,11 @@ def test(
                     action,
                     state_info["info"]["observation_metadata"],
                     action_set_tag=args.action_set_tag,
-                    prompt_constructor=agent.prompt_constructor
-                    if isinstance(agent, PromptAgent)
-                    else None,
+                    prompt_constructor=(
+                        agent.prompt_constructor
+                        if isinstance(agent, PromptAgent)
+                        else None
+                    ),
                 )
                 render_helper.render(
                     action, state_info, meta_data, args.render_screenshot
@@ -410,15 +402,17 @@ def test(
 
             scores.append(score)
 
+            results_json[config_file] = score
+            with open(os.path.join(args.result_dir, "results.json"), "w") as f:
+                json.dump(results_json, f, indent=4)
+
             if score == 1:
                 logger.info(f"[Result] (PASS) {config_file}")
             else:
                 logger.info(f"[Result] (FAIL) {config_file}")
 
             if args.save_trace_enabled:
-                env.save_trace(
-                    Path(args.result_dir) / "traces" / f"{task_id}.zip"
-                )
+                env.save_trace(Path(args.result_dir) / "traces" / f"{task_id}.zip")
         except openai.OpenAIError as e:
             logger.info(f"[OpenAI Error] {repr(e)}")
         except Exception as e:
@@ -446,9 +440,7 @@ def prepare(args: argparse.Namespace) -> None:
     # prepare result dir
     result_dir = args.result_dir
     if not result_dir:
-        result_dir = (
-            f"cache/results_{time.strftime('%Y%m%d%H%M%S', time.localtime())}"
-        )
+        result_dir = f"cache/results_{time.strftime('%Y%m%d%H%M%S', time.localtime())}"
     if not Path(result_dir).exists():
         Path(result_dir).mkdir(parents=True, exist_ok=True)
         args.result_dir = result_dir
@@ -464,9 +456,7 @@ def prepare(args: argparse.Namespace) -> None:
 
 def get_unfinished(config_files: list[str], result_dir: str) -> list[str]:
     result_files = glob.glob(f"{result_dir}/*.html")
-    task_ids = [
-        os.path.basename(f).split(".")[0].split("_")[1] for f in result_files
-    ]
+    task_ids = [os.path.basename(f).split(".")[0].split("_")[1] for f in result_files]
     unfinished_configs = []
     for config_file in config_files:
         task_id = os.path.basename(config_file).split(".")[0]
@@ -497,6 +487,15 @@ if __name__ == "__main__":
     ed_idx = args.test_end_idx
     for i in range(st_idx, ed_idx):
         test_file_list.append(os.path.join(test_config_base_dir, f"{i}.json"))
+
+    with open(args.successful_tasks_file) as f:
+        successful_tasks = json.load(f)
+        test_file_list = [
+            task
+            for task in test_file_list
+            if task.split("/")[-1].split(".")[0] in successful_tasks
+        ]
+
     test_file_list = get_unfinished(test_file_list, args.result_dir)
     print(f"Total {len(test_file_list)} tasks left")
     args.render = False

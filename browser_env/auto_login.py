@@ -1,4 +1,5 @@
 """Script to automatically login each website"""
+
 import argparse
 import glob
 import os
@@ -32,11 +33,12 @@ EXACT_MATCH = [True, True, True]
 KEYWORDS = ["", "Delete", "My listings"]
 
 # If you want to test WebArena tasks, uncomment the following lines to add the configs:
-SITES.extend(["shopping_admin", "gitlab"])
-URLS.extend([f"{SHOPPING_ADMIN}/dashboard", f"{GITLAB}/-/profile"])
-EXACT_MATCH.extend([True, True])
-KEYWORDS.extend(["Dashboard", ""])
-assert len(SITES) == len(URLS) == len(EXACT_MATCH) == len(KEYWORDS)
+# SITES.extend(["shopping_admin", "gitlab"])
+# URLS.extend([f"{SHOPPING_ADMIN}/dashboard", f"{GITLAB}/-/profile"])
+# EXACT_MATCH.extend([True, True])
+# KEYWORDS.extend(["Dashboard", ""])
+# assert len(SITES) == len(URLS) == len(EXACT_MATCH) == len(KEYWORDS)
+
 
 def is_expired(
     storage_state: Path, url: str, keyword: str, url_exact: bool = True
@@ -124,13 +126,9 @@ def main(auth_folder: str = "./.auth") -> None:
     with ThreadPoolExecutor(max_workers=8) as executor:
         for pair in pairs:
             # Auth doesn't work on this pair as they share the same cookie
-            if "reddit" in pair and (
-                "shopping" in pair or "shopping_admin" in pair
-            ):
+            if "reddit" in pair and ("shopping" in pair or "shopping_admin" in pair):
                 continue
-            executor.submit(
-                renew_comb, list(sorted(pair)), auth_folder=auth_folder
-            )
+            executor.submit(renew_comb, list(sorted(pair)), auth_folder=auth_folder)
 
         for site in SITES:
             executor.submit(renew_comb, [site], auth_folder=auth_folder)
