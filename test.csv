@@ -1,1147 +1,400 @@
 ID,Element,Top,Right,Bottom,Left,Width,Height,Alt,Class,Id,TextContent,Interactable
-1,LI,10.0,840.0,30.0,762.0,78.0,20.0,,,,My Account,False
-2,A,10.0,840.0,29.0,762.0,78.0,19.0,,,idhGGZbg4b,My Account,True
-3,LI,10.0,1000.0,30.0,855.0,145.0,20.0,,link wishlist,,"
+1,LI,10.0,552.0,30.0,474.0,78.0,20.0,,,,My Account,False
+2,A,10.0,552.0,29.0,474.0,78.0,19.0,,,id6mawErmE,My Account,True
+3,LI,10.0,651.0,30.0,567.0,84.0,20.0,,link wishlist,,"
     My Wish List        
-        10 items
-        
     
 ",False
-4,A,10.0,1000.0,29.0,855.0,145.0,19.0,,,,"My Wish List        
-        10 items
-        
+4,A,10.0,651.0,29.0,567.0,84.0,19.0,,,,"My Wish List        
     ",True
-5,LI,10.0,1073.0,30.0,1015.0,58.0,20.0,,link authorization-link,,"
-    Sign Out
+5,LI,10.0,712.0,30.0,666.0,46.0,20.0,,link authorization-link,,"
+    Sign In
 ",False
-6,A,10.0,1073.0,29.0,1015.0,58.0,19.0,,,,Sign Out,True
-7,LI,10.0,1260.0,29.59375,1103.0,157.0,19.59375,,greet welcome,,"
+6,A,10.0,712.0,29.0,666.0,46.0,19.0,,,,Sign In,True
+7,LI,10.0,912.0,30.0,727.0,185.0,20.0,,item link compare,,"
+    
+        Compare Products        10 items
+    
+",False
+8,A,10.0,912.0,29.0,727.0,185.0,19.0,,action compare,,"
+        Compare Products        10 items
+    ",True
+9,LI,10.0,1122.0,29.59375,927.0,195.0,19.59375,,greet welcome,,"
         
-        Welcome, Emma Lopez!
         
-        
+        Welcome to One Stop Market
+                
     ",False
-8,SPAN,10.0,1260.0,29.0,1103.0,157.0,19.0,,logged-in,,"Welcome, Emma Lopez!",False
-9,A,9.0,20.0,10.0,19.0,1.0,1.0,,action skip contentarea,,"
+10,SPAN,10.0,1122.0,29.0,927.0,195.0,19.0,,not-logged-in,,Welcome to One Stop Market,False
+11,LI,10.0,1260.0,30.0,1137.0,123.0,20.0,,,,Create an Account,False
+12,A,10.0,1260.0,29.0,1137.0,123.0,19.0,,,idwMATAK6x,Create an Account,True
+13,A,9.0,20.0,10.0,19.0,1.0,1.0,,action skip contentarea,,"
     
         Skip to Content    
 ",True
-10,IMG,71.0,220.0,98.265625,20.0,200.0,27.265625,"one_stop_market_logo, description: one stop market logo, url: http://treble.cs.cmu.edu:7770/media/logo/websites/1/image_15__1.png",,,,True
-11,A,71.0,1260.0,104.0,1197.0,63.0,33.0,,action showcart,,"
+14,IMG,71.0,220.0,98.265625,20.0,200.0,27.265625,"one_stop_market_logo, description: one stop market logo, url: http://treble.cs.cmu.edu:7770/media/logo/websites/1/image_15__1.png",,,,True
+15,A,71.0,1260.0,104.0,1197.0,63.0,33.0,,action showcart,,"
         My Cart
         
             
                 
-                42
+                11
                 
             
             
             
-                42
+                11
                 items
             
             
         
     ",True
-12,SPAN,76.0,1256.0,95.0,1240.0,16.0,19.0,,counter-number,,"
+16,SPAN,76.0,1256.0,95.0,1240.0,16.0,19.0,,counter-number,,"
                 
-                42
+                11
                 
             ",False
-13,SPAN,73.0,1256.0,74.0,1255.0,1.0,1.0,,counter-label,,"
+17,SPAN,73.0,1256.0,74.0,1255.0,1.0,1.0,,counter-label,,"
             
-                42
+                11
                 items
             
             ",False
-14,SPAN,99.0,1292.0,118.0,1255.0,37.0,19.0,,,,items,False
-15,SPAN,102.0,933.0,103.0,932.0,1.0,1.0,,,,Search,False
-16,INPUT,71.0,1184.0,103.0,934.0,250.0,32.0,,input-text,search,,True
-17,A,108.0,1050.0,127.0,934.0,116.0,19.0,,action advanced,,"
+18,SPAN,99.0,1292.0,118.0,1255.0,37.0,19.0,,,,items,False
+19,SPAN,102.0,933.0,103.0,932.0,1.0,1.0,,,,Search,False
+20,INPUT,71.0,1184.0,103.0,934.0,250.0,32.0,,input-text,search,,True
+21,A,108.0,1050.0,127.0,934.0,116.0,19.0,,action advanced,,"
         Advanced Search    ",True
-18,BUTTON,71.0,1174.0,103.0,1152.0,22.0,32.0,,action search,,"
+22,BUTTON,71.0,1174.0,103.0,1152.0,22.0,32.0,,action search,,"
                     Search
                 ",True
-19,UL,128.0,1280.0,237.0,0.0,1280.0,109.0,,ui-menu ui-widget ui-widget-content,ui-id-1,"
+23,UL,128.0,1280.0,237.0,0.0,1280.0,109.0,,ui-menu ui-widget ui-widget-content,ui-id-1,"
         Beauty & Personal CareOral CareToothbrushes & AccessoriesDental Floss & PicksOrthodontic SuppliesChildren's Dental CareOral Pain ReliefToothpasteTeeth WhiteningBreath FreshenersDenture CareTongue CleanersMouthwashSkin CareSunscreens & Tanning ProductsFaceLip CareMaternityEyesSets & KitsBodyMakeupBodyEyesLipsMakeup PalettesFaceMakeup SetsMakeup RemoverFoot, Hand & Nail CareTools & AccessoriesNail Art & PolishFoot & Hand CareHair CareHair Loss ProductsHair MasksHair Cutting ToolsHair Coloring ProductsHair Treatment OilsHair Extensions, Wigs & AccessoriesShampoo & ConditionerStyling ProductsStyling Tools & AppliancesHair AccessoriesTools & AccessoriesBags & CasesMakeup Brushes & ToolsRefillable ContainersMirrorsSkin Care ToolsCotton Balls & SwabsFragranceWomen'sMen'sPersonal CareBath & Bathing AccessoriesDeodorants & AntiperspirantsPiercing & Tattoo SuppliesShave & Hair RemovalMen'sWomen'sSalon & Spa EquipmentSpa Storage SystemsSpa Beds & TablesProfessional Massage EquipmentSports & OutdoorsHunting & FishingShootingExercise & FitnessFan ShopClothingFootwearSports & Outdoor Recreation AccessoriesBall StorageSportsClothing, Shoes & JewelryMenClothingShoesUniforms, Work & SafetyWomenClothingShoesAccessoriesUniforms, Work & SafetyNovelty & MoreClothingSport Specific ClothingCompetitive SwimwearHome & KitchenFurnitureLiving Room FurnitureAccent FurnitureHome Office FurnitureKitchen FurnitureGame & Recreation Room FurnitureBedroom FurnitureEntryway FurnitureDining Room FurnitureKids' FurnitureBeddingKids' BeddingBlankets & ThrowsDecorative Pillows, Inserts & CoversStorage & OrganizationBaskets, Bins & ContainersHome Storage HooksRacks, Shelves & DrawersClothing & Closet StorageHome Décor ProductsHome Décor AccentsWindow TreatmentsArtificial Plants & FlowersCandles & HoldersMirrorsRugs, Pads & ProtectorsSlipcoversKitchen & DiningDining & EntertainingStorage & OrganizationKitchen & Table LinensHeating, Cooling & Air QualityWall ArtPosters & PrintsBathBathroom AccessoriesOffice ProductsOffice ElectronicsPrinters & AccessoriesOffice & School SuppliesDesk Accessories & Workspace OrganizersOffice Furniture & LightingChairs & SofasCabinets, Racks & ShelvesTools & Home ImprovementLighting & Ceiling FansLamps & ShadesWall LightsCeiling LightsHealth & HouseholdHousehold SuppliesHousehold BatteriesHealth CareDiet & Sports NutritionNutrition Bars & DrinksPatio, Lawn & GardenGardening & Lawn CarePlants, Seeds & BulbsPots, Planters & Container AccessoriesPatio Furniture & AccessoriesElectronicsHome AudioHome Audio AccessoriesSpeakersCompact Radios & StereosHome TheaterTurntables & AccessoriesVideo ProjectorsAccessories & SuppliesAudio & Video AccessoriesPower Strips & Surge ProtectorsTelephone AccessoriesTelevision & VideoProjection ScreensTelevisionsDVD Players & RecordersStreaming Media PlayersHome Theater SystemsTelevision AccessoriesCamera & PhotoTripods & MonopodsLighting & StudioBags & CasesBinoculars & ScopesVideo SurveillanceAccessoriesDigital CamerasUnderwater PhotographyFilm PhotographyFlashesLensesVideoComputers & AccessoriesComputer Accessories & PeripheralsNetworking ProductsTablet AccessoriesComputers & TabletsData StorageLaptop AccessoriesComputer ComponentsHeadphonesOver-Ear HeadphonesEarbud HeadphonesOn-Ear HeadphonesPortable Audio & VideoBoomboxesPortable Speakers & DocksRadiosMP3 & MP4 Player AccessoriesSecurity & SurveillanceAccessoriesSurveillance Video EquipmentPower AccessoriesAC AdaptersCar & Vehicle ElectronicsCar ElectronicsVehicle Electronics AccessoriesWearable TechnologySmartwatchesGPS, Finders & AccessoriesGPS System AccessoriesCell Phones & AccessoriesAccessoriesChargers & Power AdaptersMaintenance, Upkeep & RepairsSingle Ear Bluetooth HeadsetsSmartwatch AccessoriesVirtual Reality (VR) HeadsetsStandsAutomobile AccessoriesPhoto & Video AccessoriesSignal BoostersCases, Holsters & SleevesBasic CasesFlip CasesCell PhonesVideo GamesXbox OneAccessoriesPCAccessoriesVirtual RealityLegacy SystemsXbox SystemsPlayStation SystemsNintendo SystemsPlayStation 4AccessoriesNintendo SwitchGrocery & Gourmet FoodFood & Beverage GiftsBakery & Dessert GiftsSnack GiftsCoffee & Tea GiftsFruit & Nut GiftsHerb, Spice & Seasoning GiftsAssortments & Variety GiftsMeat & Seafood GiftsCheese & Charcuterie GiftsBreads & BakeryCookiesBreadsCakesPastries & BakeryPantry StaplesHerbs, Spices & SeasoningsCooking & BakingOlives, Pickles & RelishesCanned, Jarred & Packaged FoodsSauces, Gravies & MarinadesPasta & NoodlesSoups, Stocks & BrothsDried Grains & RiceJams, Jellies & Sweet SpreadsCondiments & Salad DressingsNut & Seed ButtersSnacks & SweetsSnack FoodsChocolateCandy & ChocolateDairy, Cheese & EggsCheeseYogurtCheese Assortments & SamplersNon-Dairy MilksMilk & CreamBreakfast FoodsCerealsBreakfast & Cereal BarsBeveragesBottled Beverages, Water & Drink MixesCoffee, Tea & CocoaProduceDried Fruits & VegetablesAlcoholic BeveragesWineDeli & Prepared FoodsDeli Meats & CheesesFrozenMeals & EntreesMeatsIce Cream & NoveltiesAppetizers & SnacksSeafoodHome Brewing & WinemakingWinemaking IngredientsMeat & SeafoodBeefSeafoodFresh Meal KitsMeat Substitutes            ",True
-20,A,128.0,202.0,181.0,8.0,194.0,53.0,,level-top ui-menu-item-wrapper,ui-id-2,Beauty & Personal Care,True
-21,A,128.0,374.0,181.0,212.0,162.0,53.0,,level-top ui-menu-item-wrapper,ui-id-67,Sports & Outdoors,True
-22,A,128.0,593.0,181.0,384.0,209.0,53.0,,level-top ui-menu-item-wrapper,ui-id-77,"Clothing, Shoes & Jewelry",True
-23,A,128.0,748.0,181.0,603.0,145.0,53.0,,level-top ui-menu-item-wrapper,ui-id-91,Home & Kitchen,True
-24,A,128.0,897.0,181.0,758.0,139.0,53.0,,level-top ui-menu-item-wrapper,ui-id-128,Office Products,True
-25,A,128.0,1136.0,181.0,907.0,229.0,53.0,,level-top ui-menu-item-wrapper,ui-id-136,Tools & Home Improvement,True
-26,A,181.0,180.0,234.0,8.0,172.0,53.0,,level-top ui-menu-item-wrapper,ui-id-141,Health & Household,True
-27,A,181.0,372.0,234.0,190.0,182.0,53.0,,level-top ui-menu-item-wrapper,ui-id-147,"Patio, Lawn & Garden",True
-28,A,181.0,489.0,234.0,382.0,107.0,53.0,,level-top ui-menu-item-wrapper,ui-id-152,Electronics,True
-29,A,181.0,710.0,234.0,499.0,211.0,53.0,,level-top ui-menu-item-wrapper,ui-id-213,Cell Phones & Accessories,True
-30,A,181.0,842.0,234.0,720.0,122.0,53.0,,level-top ui-menu-item-wrapper,ui-id-228,Video Games,True
-31,A,181.0,1058.0,237.0,852.0,206.0,56.0,,level-top ui-menu-item-wrapper,ui-id-241,Grocery & Gourmet Food,True
-32,LI,262.0,81.0,280.0,20.0,61.0,18.0,,item home,,"
-                            
-                    Home                
-                        ",False
-33,A,262.0,57.0,278.0,20.0,37.0,16.0,,,,"
-                    Home                ",True
-34,LI,262.0,251.0,280.0,84.0,167.0,18.0,,item category14,,"
-                            
-                    Grocery & Gourmet Food                
-                        ",False
-35,A,262.0,227.0,278.0,84.0,143.0,16.0,,,,"
-                    Grocery & Gourmet Food                ",True
-36,LI,262.0,375.0,280.0,254.0,121.0,18.0,,item category73,,"
-                            
-                    Breads & Bakery                
-                        ",False
-37,A,262.0,351.0,278.0,254.0,97.0,16.0,,,,"
-                    Breads & Bakery                ",True
-38,LI,262.0,422.0,279.140625,378.0,44.0,17.140625,,item category259,,"
-                            Cookies
-                        ",False
-39,H1,300.0,160.0,344.0,20.0,140.0,44.0,,page-title,page-title-heading,"
-        Cookies    ",False
-40,SPAN,295.0,160.0,349.0,20.0,140.0,54.0,,base,,Cookies,False
-41,A,392.0,512.0,410.0,430.0,82.0,18.0,,,,shopping cart,True
-42,SPAN,436.59375,296.46875,437.59375,295.46875,1.0,1.0,,,,Grid,False
-43,A,429.59375,352.46875,469.59375,306.46875,46.0,40.0,,modes-mode mode-list,mode-list,"
-                        List
-                    ",True
-44,P,429.59375,421.46875,463.59375,372.46875,49.0,34.0,,toolbar-amount,toolbar-amount,"
-            7 Items    ",False
-45,SPAN,440.59375,380.46875,459.59375,372.46875,8.0,19.0,,toolbar-number,,7,False
-46,SELECT,433.59375,1218.0,465.59375,1080.0,138.0,32.0,,sorter-options,sorter,"
-                    
-                Position            
-                    
-                Product Name            
-                    
-                Price            
+24,A,128.0,202.0,181.0,8.0,194.0,53.0,,level-top ui-menu-item-wrapper,ui-id-2,Beauty & Personal Care,True
+25,A,128.0,374.0,181.0,212.0,162.0,53.0,,level-top ui-menu-item-wrapper,ui-id-67,Sports & Outdoors,True
+26,A,128.0,593.0,181.0,384.0,209.0,53.0,,level-top ui-menu-item-wrapper,ui-id-77,"Clothing, Shoes & Jewelry",True
+27,A,128.0,748.0,181.0,603.0,145.0,53.0,,level-top ui-menu-item-wrapper,ui-id-91,Home & Kitchen,True
+28,A,128.0,897.0,181.0,758.0,139.0,53.0,,level-top ui-menu-item-wrapper,ui-id-128,Office Products,True
+29,A,128.0,1136.0,181.0,907.0,229.0,53.0,,level-top ui-menu-item-wrapper,ui-id-136,Tools & Home Improvement,True
+30,A,181.0,180.0,234.0,8.0,172.0,53.0,,level-top ui-menu-item-wrapper,ui-id-141,Health & Household,True
+31,A,181.0,372.0,234.0,190.0,182.0,53.0,,level-top ui-menu-item-wrapper,ui-id-147,"Patio, Lawn & Garden",True
+32,A,181.0,489.0,234.0,382.0,107.0,53.0,,level-top ui-menu-item-wrapper,ui-id-152,Electronics,True
+33,A,181.0,710.0,234.0,499.0,211.0,53.0,,level-top ui-menu-item-wrapper,ui-id-213,Cell Phones & Accessories,True
+34,A,181.0,842.0,234.0,720.0,122.0,53.0,,level-top ui-menu-item-wrapper,ui-id-228,Video Games,True
+35,A,181.0,1058.0,237.0,852.0,206.0,56.0,,level-top ui-menu-item-wrapper,ui-id-241,Grocery & Gourmet Food,True
+36,LI,262.0,81.0,280.0,20.0,61.0,18.0,,item home,,"
+        
+        Home
+        
+    ",False
+37,A,262.0,54.0,278.0,20.0,34.0,16.0,,,,Home,True
+38,LI,262.0,251.0,280.0,84.0,167.0,18.0,,item category,,"
+        
+        Grocery & Gourmet Food
+        
+    ",False
+39,A,262.0,224.0,278.0,84.0,140.0,16.0,,,,Grocery & Gourmet Food,True
+40,LI,262.0,375.0,280.0,254.0,121.0,18.0,,item category,,"
+        
+        Breads & Bakery
+        
+    ",False
+41,A,262.0,348.0,278.0,254.0,94.0,16.0,,,,Breads & Bakery,True
+42,LI,262.0,449.0,280.0,378.0,71.0,18.0,,item category,,"
+        
+        Cookies
+        
+    ",False
+43,A,262.0,422.0,278.0,378.0,44.0,16.0,,,,Cookies,True
+44,LI,280.0,1062.0,297.140625,20.0,1042.0,17.140625,,item product,,"
+        
+        B.A.D. FOOD CO The Peanutter - Peanut Butter Cookies | 5.4oz – 12 Pack | , Grain-Free, Gluten-Free, Refined Sugar Free, No-Soy, Dairy-Free, Non-GMO, Paleo Friendly, and Nutrient Dense!
+        
+    ",False
+45,H1,317.140625,1260.0,449.140625,20.0,1240.0,132.0,,page-title,,"
+        B.A.D. FOOD CO The Peanutter - Peanut Butter Cookies | 5.4oz – 12 Pack | , Grain-Free, Gluten-Free, Refined Sugar Free, No-Soy, Dairy-Free, Non-GMO, Paleo Friendly, and Nutrient Dense!    ",False
+46,SPAN,312.140625,1231.0,454.140625,20.0,1211.0,142.0,,base,,"B.A.D. FOOD CO The Peanutter - Peanut Butter Cookies | 5.4oz – 12 Pack | , Grain-Free, Gluten-Free, Refined Sugar Free, No-Soy, Dairy-Free, Non-GMO, Paleo Friendly, and Nutrient Dense!",False
+47,DIV,499.140625,1240.0,514.734375,60.0,1180.0,15.59375,,,,The product's required option(s) weren't entered. Make sure the options are entered and try again.,False
+48,SPAN,534.734375,829.0,553.734375,764.0,65.0,19.0,,,,In stock,False
+49,DIV,534.734375,977.0,554.734375,890.0,87.0,20.0,,value,,B08Y1CSQTH,False
+50,SPAN,563.734375,759.0,564.734375,758.0,1.0,1.0,,label,,Rating:,False
+51,SPAN,563.734375,805.0,582.734375,758.0,47.0,19.0,,,,Rating:,False
+52,SPAN,564.734375,854.0,592.734375,754.0,100.0,28.0,,,,"
+                     
+                         100                         % of 100
+                     
+                 ",False
+53,SPAN,591.734375,853.0,592.734375,753.0,100.0,1.0,,,,"
+                         100                         % of 100
+                     ",False
+54,SPAN,590.734375,852.0,591.734375,752.0,100.0,1.0,,,,100                         ,False
+55,SPAN,590.734375,881.0,591.734375,781.0,100.0,1.0,,,,100,False
+56,A,568.734375,941.0,587.734375,859.0,82.0,19.0,,action view,,"
+                12 
+                Reviews                
             ",True
-47,A,431.59375,1250.0,463.59375,1222.0,28.0,32.0,,action sorter-action sort-asc,,"
-            Set Descending Direction
+57,A,568.734375,1058.0,587.734375,946.0,112.0,19.0,,action add,,"
+                Add Your Review            ",True
+58,SPAN,606.734375,819.0,622.734375,764.0,55.0,16.0,,price-container price-final_price tax weee,,"
+        $86.97
+                
+        
+    ",False
+59,SPAN,606.734375,819.0,622.734375,764.0,55.0,16.0,,price-wrapper ,product-price-23627,$86.97,False
+60,SPAN,600.734375,819.0,625.734375,764.0,55.0,25.0,,price,,$86.97,False
+61,DIV,624.734375,1260.0,938.875,764.0,496.0,314.140625,,fieldset,,"
+        
+
+require([
+    'jquery',
+], function($){
+
+//<![CDATA[
+    $.extend(true, $, {
+        calendarConfig: {
+            dayNames: [Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday],
+            dayNamesMin: [Sun,Mon,Tue,Wed,Thu,Fri,Sat],
+            monthNames: [January,February,March,April,May,June,July,August,September,October,November,December],
+            monthNamesShort: [Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec],
+            infoTitle: 'About\u0020the\u0020calendar',
+            firstDay: 0,
+            closeText: 'Close',
+            currentText: 'Go\u0020Today',
+            prevText: 'Previous',
+            nextText: 'Next',
+            weekHeader: 'WK',
+            timeText: 'Time',
+            hourText: 'Hour',
+            minuteText: 'Minute',
+            dateFormat: D, d M yy, // $.datepicker.RFC_2822
+            showOn: 'button',
+            showAnim: '',
+            changeMonth: true,
+            changeYear: true,
+            buttonImageOnly: null,
+            buttonImage: null,
+            showButtonPanel: true,
+            showWeek: true,
+            timeFormat: '',
+            showTime: false,
+            showHour: false,
+            showMinute: false
+        }
+    });
+
+    enUS = {m:{wide:[January,February,March,April,May,June,July,August,September,October,November,December],abbr:[Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec]}}; // en_US locale reference
+//]]>
+
+});
+
+            
+
+    
+        Flavor Name
+    
+    
+            
+
+    
+            
+        
+            
+            
+                
+                    Chocolate Chip                
+                            
+        
+            
+        
+            
+            
+                
+                    Double Chocolate Chip                
+                            
+        
+            
+        
+            
+            
+                
+                    Peanut Butter                
+                            
+        
+            
+        
+            
+            
+                
+                    Snickerdoodle                
+                            
+        
+            
+        
+            
+            
+                
+                    Variety Pack                
+                            
+        
+        
+                                    
+                        
+
+            
+
+    
+        Size
+    
+    
+            
+
+    
+            
+        
+            
+            
+                
+                    5.4 oz - 12 Pack                
+                            
+        
+            
+        
+            
+            
+                
+                    5.4 oz - 3 Pack                
+                            
+        
+            
+        
+            
+            
+                
+                    5.4 oz - 6 Pack                
+                            
+        
+        This is a required field.
+                                    
+                        
+
         ",True
-48,LI,509.59375,488.46875,975.84375,251.46875,237.0,466.25,,item product product-item,,"
-                
-                                                            
-                        
-    
-        
-
-.product-image-container-44094 {
-    width: 240px;
-}
-.product-image-container-44094 span.product-image-wrapper {
-    padding-bottom: 125%;
-}prodImageContainers = document.querySelectorAll(.product-image-container-44094);
-for (var i = 0; i < prodImageContainers.length; i++) {
-    prodImageContainers[i].style.width = 240px;
-}
-prodImageContainersWrappers = document.querySelectorAll(
-    .product-image-container-44094  span.product-image-wrapper
-);
-for (var i = 0; i < prodImageContainersWrappers.length; i++) {
-    prodImageContainersWrappers[i].style.paddingBottom = 125%;
-}                    
-                    
-                                                
-                            
-                                Kakiyama Ara Kashiko (AL-15) Cute, easy-to-divide, casual gift rice cracker                            
-                        
-                                                
-    
-
-
-        $85.00
-        
-
-
-                        
-                        
-                            
-                                
-                                                                                                                    
-                                                                                                                                    
-                                            
-                                                                                        
-                                                Add to Cart
-                                            
-                                        
-                                                                    
-                                                                
-                                                                                
-        Add to Wish List
-    
-
-    Add to Compare
-
-                                                                    
-                                                            
-                                                    
-                    
-                
-                            ",False
-49,SPAN,509.59375,488.46875,805.84375,251.46875,237.0,296.25,,product-image-container product-image-container-44094,,"
-    
-        
-",False
-50,SPAN,509.59375,488.46875,805.84375,251.46875,237.0,296.25,,product-image-wrapper,,"
-        ",False
-51,IMG,509.59375,488.46875,805.84375,251.46875,237.0,296.25,"Image, description: a box of various snacks in a white box, url: http://treble.cs.cmu.edu:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B07FNY7SHS.0.jpg",product-image-photo,,,True
-52,A,815.84375,485.46875,874.84375,251.46875,234.0,59.0,,product-item-link,,"
-                                Kakiyama Ara Kashiko (AL-15) Cute, easy-to-divide, casual gift rice cracker                            ",True
-53,SPAN,885.84375,295.46875,904.84375,251.46875,44.0,19.0,,price-container price-final_price tax weee,,"
-        $85.00
-        ",False
-54,SPAN,885.84375,295.46875,904.84375,251.46875,44.0,19.0,,price-wrapper ,product-price-44094,$85.00,False
-55,SPAN,885.84375,295.46875,904.84375,251.46875,44.0,19.0,,price,,$85.00,False
-56,BUTTON,932.34375,363.46875,964.34375,251.46875,112.0,32.0,,action tocart primary,,"
-                                                Add to Cart
-                                            ",True
-57,A,930.84375,398.46875,965.84375,363.46875,35.0,35.0,,action towishlist,,"
-        Add to Wish List
-    ",True
-58,A,930.84375,437.46875,965.84375,402.46875,35.0,35.0,,action tocompare,,"
-    Add to Compare
-",True
-59,LI,509.59375,745.625,995.84375,508.625,237.0,486.25,,item product product-item,,"
-                
-                                                            
-                        
-    
-        
-
-.product-image-container-103469 {
-    width: 240px;
-}
-.product-image-container-103469 span.product-image-wrapper {
-    padding-bottom: 125%;
-}prodImageContainers = document.querySelectorAll(.product-image-container-103469);
-for (var i = 0; i < prodImageContainers.length; i++) {
-    prodImageContainers[i].style.width = 240px;
-}
-prodImageContainersWrappers = document.querySelectorAll(
-    .product-image-container-103469  span.product-image-wrapper
-);
-for (var i = 0; i < prodImageContainersWrappers.length; i++) {
-    prodImageContainersWrappers[i].style.paddingBottom = 125%;
-}                    
-                    
-                                                
-                            
-                                PACK OF 6 - Pepperidge Farm Chocolate Collection Cookies, 13 oz                            
-                        
-                                
-                
-            Rating:
-            
-                100%
-            
-                var elemJZmnHxNxArray = document.querySelectorAll('#rating-result_103469 span');
-    if(elemJZmnHxNxArray.length !== 'undefined'){
-        elemJZmnHxNxArray.forEach(function(element) {
-            if (element) {
-                element.style.width = '100%';
-
-            }
-        });
-    }        
-                
-            1                 Review                
-            
-        
-    
-                        
-    
-
-
-        $89.99
-        
-
-
-                        
-                        
-                            
-                                
-                                                                                                                    
-                                                                                                                                    
-                                            
-                                                                                        
-                                                Add to Cart
-                                            
-                                        
-                                                                    
-                                                                
-                                                                                
-        Add to Wish List
-    
-
-    Add to Compare
-
-                                                                    
-                                                            
-                                                    
-                    
-                
-                            ",False
-60,SPAN,509.59375,745.625,805.84375,508.625,237.0,296.25,,product-image-container product-image-container-103469,,"
-    
-        
-",False
-61,SPAN,509.59375,745.625,805.84375,508.625,237.0,296.25,,product-image-wrapper,,"
-        ",False
-62,IMG,509.59375,745.625,805.84375,508.625,237.0,296.25,"Image, description: a box of chocolate cookies with chocolate chips, url: http://treble.cs.cmu.edu:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B079MRY1X8.0.jpg",product-image-photo,,,True
-63,A,815.84375,741.625,854.84375,508.625,233.0,39.0,,product-item-link,,"
-                                PACK OF 6 - Pepperidge Farm Chocolate Collection Cookies, 13 oz                            ",True
-64,SPAN,864.84375,503.625,865.84375,502.625,1.0,1.0,,label,,Rating:,False
-65,SPAN,864.84375,549.625,883.84375,502.625,47.0,19.0,,,,Rating:,False
-66,SPAN,865.84375,598.625,893.84375,498.625,100.0,28.0,,,,100%,False
-67,SPAN,892.84375,597.625,893.84375,497.625,100.0,1.0,,,,100%,False
-68,A,871.84375,655.625,887.84375,603.625,52.0,16.0,,action view,,"1                 Review                
+62,SPAN,624.734375,852.0,643.734375,764.0,88.0,19.0,,,,Flavor Name,False
+63,INPUT,651.734375,777.0,664.734375,764.0,13.0,13.0,,"radio admin__control-radio required                       product-custom-option
+                        ",options_12953_2,,True
+64,SPAN,649.734375,887.0,668.734375,786.0,101.0,19.0,,,,"
+                    Chocolate Chip                ",False
+65,INPUT,681.734375,777.0,694.734375,764.0,13.0,13.0,,"radio admin__control-radio required                       product-custom-option
+                        ",options_12953_3,,True
+66,SPAN,679.734375,939.0,698.734375,786.0,153.0,19.0,,,,"
+                    Double Chocolate Chip                ",False
+67,INPUT,711.734375,777.0,724.734375,764.0,13.0,13.0,,"radio admin__control-radio required                       product-custom-option
+                        ",options_12953_4,,True
+68,SPAN,709.734375,879.0,728.734375,786.0,93.0,19.0,,,,"
+                    Peanut Butter                ",False
+69,INPUT,741.734375,777.0,754.734375,764.0,13.0,13.0,,"radio admin__control-radio required                       product-custom-option
+                        ",options_12953_5,,True
+70,SPAN,739.734375,881.0,758.734375,786.0,95.0,19.0,,,,"
+                    Snickerdoodle                ",False
+71,INPUT,771.734375,777.0,784.734375,764.0,13.0,13.0,,"radio admin__control-radio required                       product-custom-option
+                        ",options_12953_6,,True
+72,SPAN,769.734375,866.0,788.734375,786.0,80.0,19.0,,,,"
+                    Variety Pack                ",False
+73,SPAN,809.734375,791.0,828.734375,764.0,27.0,19.0,,,,Size,False
+74,INPUT,836.734375,777.0,849.734375,764.0,13.0,13.0,,"radio admin__control-radio required                       product-custom-option
+                        ",options_12954_2,,True
+75,SPAN,834.734375,888.0,853.734375,786.0,102.0,19.0,,,,"
+                    5.4 oz - 12 Pack                ",False
+76,INPUT,866.734375,777.0,879.734375,764.0,13.0,13.0,,"radio admin__control-radio required                       product-custom-option
+                        ",options_12954_3,,True
+77,SPAN,864.734375,880.0,883.734375,786.0,94.0,19.0,,,,"
+                    5.4 oz - 3 Pack                ",False
+78,INPUT,896.734375,777.0,909.734375,764.0,13.0,13.0,,"radio admin__control-radio required                       product-custom-option
+                        ",options_12954_4,,True
+79,SPAN,894.734375,880.0,913.734375,786.0,94.0,19.0,,,,"
+                    5.4 oz - 6 Pack                ",False
+80,DIV,921.734375,1260.0,938.875,764.0,496.0,17.140625,,mage-error,options[12954]-error,This is a required field.,False
+81,SPAN,958.875,789.0,977.875,764.0,25.0,19.0,,,,Qty,False
+82,INPUT,983.875,816.0,1035.875,764.0,52.0,52.0,,input-text qty,qty,,True
+83,BUTTON,983.875,968.0,1035.875,831.0,137.0,52.0,,action primary tocart,product-addtocart-button,"
+                Add to Cart
             ",True
-69,SPAN,905.84375,552.625,924.84375,508.625,44.0,19.0,,price-container price-final_price tax weee,,"
-        $89.99
-        ",False
-70,SPAN,905.84375,552.625,924.84375,508.625,44.0,19.0,,price-wrapper ,product-price-103469,$89.99,False
-71,SPAN,905.84375,552.625,924.84375,508.625,44.0,19.0,,price,,$89.99,False
-72,BUTTON,952.34375,620.625,984.34375,508.625,112.0,32.0,,action tocart primary,,"
-                                                Add to Cart
-                                            ",True
-73,A,950.84375,655.625,985.84375,620.625,35.0,35.0,,action towishlist,,"
-        Add to Wish List
-    ",True
-74,A,950.84375,694.625,985.84375,659.625,35.0,35.0,,action tocompare,,"
-    Add to Compare
+84,A,1075.875,870.0,1099.875,764.0,106.0,24.0,,action towishlist,,Add to Wish List,True
+85,A,1075.875,983.0,1099.875,874.0,109.0,24.0,,action tocompare,,Add to Compare,True
+86,A,533.734375,20.0,534.734375,19.0,1.0,1.0,,action skip gallery-next-area,,"
+    
+        Skip to the end of the images gallery    
 ",True
-75,LI,509.59375,1002.78125,995.84375,765.78125,237.0,486.25,,item product product-item,,"
+87,DIV,534.734375,100.0,1241.734375,20.0,80.0,707.0,,fotorama__arr fotorama__arr--prev fotorama__arr--disabled,,"
                 
-                                                            
-                        
-    
-        
-
-.product-image-container-78238 {
-    width: 240px;
-}
-.product-image-container-78238 span.product-image-wrapper {
-    padding-bottom: 125%;
-}prodImageContainers = document.querySelectorAll(.product-image-container-78238);
-for (var i = 0; i < prodImageContainers.length; i++) {
-    prodImageContainers[i].style.width = 240px;
-}
-prodImageContainersWrappers = document.querySelectorAll(
-    .product-image-container-78238  span.product-image-wrapper
-);
-for (var i = 0; i < prodImageContainersWrappers.length; i++) {
-    prodImageContainersWrappers[i].style.paddingBottom = 125%;
-}                    
-                    
-                                                
-                            
-                                Original Ginger Snap Cookies , Pack of 1616                            
-                        
-                                
-                
-            Rating:
-            
-                100%
-            
-                var elemRuzOuSylArray = document.querySelectorAll('#rating-result_78238 span');
-    if(elemRuzOuSylArray.length !== 'undefined'){
-        elemRuzOuSylArray.forEach(function(element) {
-            if (element) {
-                element.style.width = '100%';
-
-            }
-        });
-    }        
-                
-            6                 Reviews                
-            
-        
-    
-                        
-    
-
-
-        $80.66
-        
-
-
-                        
-                        
-                            
-                                
-                                                                                                                    
-                                                                                                                                    
-                                            
-                                                                                        
-                                                Add to Cart
-                                            
-                                        
-                                                                    
-                                                                
-                                                                                
-        Add to Wish List
-    
-
-    Add to Compare
-
-                                                                    
-                                                            
-                                                    
-                    
-                
-                            ",False
-76,SPAN,509.59375,1002.78125,805.84375,765.78125,237.0,296.25,,product-image-container product-image-container-78238,,"
-    
-        
-",False
-77,SPAN,509.59375,1002.78125,805.84375,765.78125,237.0,296.25,,product-image-wrapper,,"
-        ",False
-78,IMG,509.59375,1002.78125,805.84375,765.78125,237.0,296.25,"Image, description: sahiba ginger snaps in a plastic container, url: http://treble.cs.cmu.edu:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B01N9BUASF.0.jpg",product-image-photo,,,True
-79,A,815.84375,1002.78125,854.84375,765.78125,237.0,39.0,,product-item-link,,"
-                                Original Ginger Snap Cookies , Pack of 1616                            ",True
-80,SPAN,864.84375,760.78125,865.84375,759.78125,1.0,1.0,,label,,Rating:,False
-81,SPAN,864.84375,806.78125,883.84375,759.78125,47.0,19.0,,,,Rating:,False
-82,SPAN,865.84375,855.78125,893.84375,755.78125,100.0,28.0,,,,100%,False
-83,SPAN,892.84375,854.78125,893.84375,754.78125,100.0,1.0,,,,100%,False
-84,A,871.84375,918.78125,887.84375,860.78125,58.0,16.0,,action view,,"6                 Reviews                
             ",True
-85,SPAN,905.84375,809.78125,924.84375,765.78125,44.0,19.0,,price-container price-final_price tax weee,,"
-        $80.66
-        ",False
-86,SPAN,905.84375,809.78125,924.84375,765.78125,44.0,19.0,,price-wrapper ,product-price-78238,$80.66,False
-87,SPAN,905.84375,809.78125,924.84375,765.78125,44.0,19.0,,price,,$80.66,False
-88,BUTTON,952.34375,877.78125,984.34375,765.78125,112.0,32.0,,action tocart primary,,"
-                                                Add to Cart
-                                            ",True
-89,A,950.84375,912.78125,985.84375,877.78125,35.0,35.0,,action towishlist,,"
-        Add to Wish List
-    ",True
-90,A,950.84375,951.78125,985.84375,916.78125,35.0,35.0,,action tocompare,,"
-    Add to Compare
-",True
-91,LI,509.59375,1259.9375,955.84375,1022.9375,237.0,446.25,,item product product-item,,"
-                
-                                                            
-                        
-    
-        
-
-.product-image-container-78363 {
-    width: 240px;
-}
-.product-image-container-78363 span.product-image-wrapper {
-    padding-bottom: 125%;
-}prodImageContainers = document.querySelectorAll(.product-image-container-78363);
-for (var i = 0; i < prodImageContainers.length; i++) {
-    prodImageContainers[i].style.width = 240px;
-}
-prodImageContainersWrappers = document.querySelectorAll(
-    .product-image-container-78363  span.product-image-wrapper
-);
-for (var i = 0; i < prodImageContainersWrappers.length; i++) {
-    prodImageContainersWrappers[i].style.paddingBottom = 125%;
-}                    
-                    
-                                                
-                            
-                                Nabisco Oreo Chocolate Sandwich Cookies 2.4 oz., 30 ct. (pack of 3) A1                            
-                        
-                                                
-    
-
-
-        $80.00
-        
-
-
-                        
-                        
-                            
-                                
-                                                                                                                    
-                                                                                                                                    
-                                            
-                                                                                        
-                                                Add to Cart
-                                            
-                                        
-                                                                    
-                                                                
-                                                                                
-        Add to Wish List
-    
-
-    Add to Compare
-
-                                                                    
-                                                            
-                                                    
-                    
-                
-                            ",False
-92,SPAN,509.59375,1259.9375,805.84375,1022.9375,237.0,296.25,,product-image-container product-image-container-78363,,"
-    
-        
-",False
-93,SPAN,509.59375,1259.9375,805.84375,1022.9375,237.0,296.25,,product-image-wrapper,,"
-        ",False
-94,IMG,509.59375,1259.9375,805.84375,1022.9375,237.0,296.25,"Image, description: oreo cookies in a box, url: http://treble.cs.cmu.edu:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B07JV9Z68K.0.jpg",product-image-photo,,,True
-95,A,815.84375,1256.9375,854.84375,1022.9375,234.0,39.0,,product-item-link,,"
-                                Nabisco Oreo Chocolate Sandwich Cookies 2.4 oz., 30 ct. (pack of 3) A1                            ",True
-96,SPAN,865.84375,1066.9375,884.84375,1022.9375,44.0,19.0,,price-container price-final_price tax weee,,"
-        $80.00
-        ",False
-97,SPAN,865.84375,1066.9375,884.84375,1022.9375,44.0,19.0,,price-wrapper ,product-price-78363,$80.00,False
-98,SPAN,865.84375,1066.9375,884.84375,1022.9375,44.0,19.0,,price,,$80.00,False
-99,BUTTON,912.34375,1134.9375,944.34375,1022.9375,112.0,32.0,,action tocart primary,,"
-                                                Add to Cart
-                                            ",True
-100,A,910.84375,1169.9375,945.84375,1134.9375,35.0,35.0,,action towishlist,,"
-        Add to Wish List
-    ",True
-101,A,910.84375,1208.9375,945.84375,1173.9375,35.0,35.0,,action tocompare,,"
-    Add to Compare
-",True
-102,LI,1025.84375,488.46875,1552.09375,251.46875,237.0,526.25,,item product product-item,,"
-                
-                                                            
-                        
-    
-        
-
-.product-image-container-48954 {
-    width: 240px;
-}
-.product-image-container-48954 span.product-image-wrapper {
-    padding-bottom: 125%;
-}prodImageContainers = document.querySelectorAll(.product-image-container-48954);
-for (var i = 0; i < prodImageContainers.length; i++) {
-    prodImageContainers[i].style.width = 240px;
-}
-prodImageContainersWrappers = document.querySelectorAll(
-    .product-image-container-48954  span.product-image-wrapper
-);
-for (var i = 0; i < prodImageContainersWrappers.length; i++) {
-    prodImageContainersWrappers[i].style.paddingBottom = 125%;
-}                    
-                    
-                                                
-                            
-                                French Macaron Gift Box - Woops! Premium It's Chilly Outside French Macarons Cookies | Desserts & Pastries | Christmas Gifts | Holiday Gifts | Corporate Gifts | Personalized Gifts (Box of 18)                            
-                        
-                                                
-    
-
-
-        $82.00
-        
-
-
-                        
-                        
-                            
-                                
-                                                                                                                    
-                                                                                                                                    
-                                            
-                                                                                        
-                                                Add to Cart
-                                            
-                                        
-                                                                    
-                                                                
-                                                                                
-        Add to Wish List
-    
-
-    Add to Compare
-
-                                                                    
-                                                            
-                                                    
-                    
-                
-                            ",False
-103,SPAN,1025.84375,488.46875,1322.09375,251.46875,237.0,296.25,,product-image-container product-image-container-48954,,"
-    
-        
-",False
-104,SPAN,1025.84375,488.46875,1322.09375,251.46875,237.0,296.25,,product-image-wrapper,,"
-        ",False
-105,IMG,1025.84375,488.46875,1322.09375,251.46875,237.0,296.25,"Image, description: a box of macarons with a bow and a christmas tree, url: http://treble.cs.cmu.edu:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B09NKY7YVZ.0.jpg",product-image-photo,,,True
-106,A,1332.09375,483.46875,1451.09375,251.46875,232.0,119.0,,product-item-link,,"
-                                French Macaron Gift Box - Woops! Premium It's Chilly Outside French Macarons Cookies | Desserts & Pastries | Christmas Gifts | Holiday Gifts | Corporate Gifts | Personalized Gifts (Box of 18)                            ",True
-107,SPAN,1462.09375,295.46875,1481.09375,251.46875,44.0,19.0,,price-container price-final_price tax weee,,"
-        $82.00
-        ",False
-108,SPAN,1462.09375,295.46875,1481.09375,251.46875,44.0,19.0,,price-wrapper ,product-price-48954,$82.00,False
-109,SPAN,1462.09375,295.46875,1481.09375,251.46875,44.0,19.0,,price,,$82.00,False
-110,BUTTON,1508.59375,363.46875,1540.59375,251.46875,112.0,32.0,,action tocart primary,,"
-                                                Add to Cart
-                                            ",True
-111,A,1507.09375,398.46875,1542.09375,363.46875,35.0,35.0,,action towishlist,,"
-        Add to Wish List
-    ",True
-112,A,1507.09375,437.46875,1542.09375,402.46875,35.0,35.0,,action tocompare,,"
-    Add to Compare
-",True
-113,LI,1025.84375,745.625,1592.09375,508.625,237.0,566.25,,item product product-item,,"
-                
-                                                            
-                        
-    
-        
-
-.product-image-container-23627 {
-    width: 240px;
-}
-.product-image-container-23627 span.product-image-wrapper {
-    padding-bottom: 125%;
-}prodImageContainers = document.querySelectorAll(.product-image-container-23627);
-for (var i = 0; i < prodImageContainers.length; i++) {
-    prodImageContainers[i].style.width = 240px;
-}
-prodImageContainersWrappers = document.querySelectorAll(
-    .product-image-container-23627  span.product-image-wrapper
-);
-for (var i = 0; i < prodImageContainersWrappers.length; i++) {
-    prodImageContainersWrappers[i].style.paddingBottom = 125%;
-}                    
-                    
-                                                
-                            
-                                B.A.D. FOOD CO The Peanutter - Peanut Butter Cookies | 5.4oz – 12 Pack | , Grain-Free, Gluten-Free, Refined Sugar Free, No-Soy, Dairy-Free, Non-GMO, Paleo Friendly, and Nutrient Dense!                            
-                        
-                                
-                
-            Rating:
-            
-                100%
-            
-                var elemp4tPsLbbArray = document.querySelectorAll('#rating-result_23627 span');
-    if(elemp4tPsLbbArray.length !== 'undefined'){
-        elemp4tPsLbbArray.forEach(function(element) {
-            if (element) {
-                element.style.width = '100%';
-
-            }
-        });
-    }        
-                
-            12                 Reviews                
-            
-        
-    
-                        
-    
-
-
-        $86.97
-        
-
-
-                        
-                        
-                            
-                                
-                                                                                                                    
-                                                                                                                                    
-                                            
-                                                                                        
-                                                Add to Cart
-                                            
-                                        
-                                                                    
-                                                                
-                                                                                
-        Add to Wish List
-    
-
-    Add to Compare
-
-                                                                    
-                                                            
-                                                    
-                    
-                
-                            ",False
-114,SPAN,1025.84375,745.625,1322.09375,508.625,237.0,296.25,,product-image-container product-image-container-23627,,"
-    
-        
-",False
-115,SPAN,1025.84375,745.625,1322.09375,508.625,237.0,296.25,,product-image-wrapper,,"
-        ",False
-116,IMG,1025.84375,745.625,1322.09375,508.625,237.0,296.25,"Image, description: bad - tahini - 12 pack, url: http://treble.cs.cmu.edu:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B08Y1CSQTH.0.jpg",product-image-photo,,,True
-117,A,1332.09375,743.625,1451.09375,508.625,235.0,119.0,,product-item-link,,"
-                                B.A.D. FOOD CO The Peanutter - Peanut Butter Cookies | 5.4oz – 12 Pack | , Grain-Free, Gluten-Free, Refined Sugar Free, No-Soy, Dairy-Free, Non-GMO, Paleo Friendly, and Nutrient Dense!                            ",True
-118,SPAN,1461.09375,503.625,1462.09375,502.625,1.0,1.0,,label,,Rating:,False
-119,SPAN,1461.09375,549.625,1480.09375,502.625,47.0,19.0,,,,Rating:,False
-120,SPAN,1462.09375,598.625,1490.09375,498.625,100.0,28.0,,,,100%,False
-121,SPAN,1489.09375,597.625,1490.09375,497.625,100.0,1.0,,,,100%,False
-122,A,1468.09375,668.625,1484.09375,603.625,65.0,16.0,,action view,,"12                 Reviews                
+88,DIV,534.734375,726.796875,1241.734375,20.0,706.796875,707.0,,fotorama__stage__shaft fotorama__grab,,"
             ",True
-123,SPAN,1502.09375,552.625,1521.09375,508.625,44.0,19.0,,price-container price-final_price tax weee,,"
-        $86.97
-        ",False
-124,SPAN,1502.09375,552.625,1521.09375,508.625,44.0,19.0,,price-wrapper ,product-price-23627,$86.97,False
-125,SPAN,1502.09375,552.625,1521.09375,508.625,44.0,19.0,,price,,$86.97,False
-126,BUTTON,1548.59375,620.625,1580.59375,508.625,112.0,32.0,,action tocart primary,,"
-                                                Add to Cart
-                                            ",True
-127,A,1547.09375,655.625,1582.09375,620.625,35.0,35.0,,action towishlist,,"
-        Add to Wish List
-    ",True
-128,A,1547.09375,694.625,1582.09375,659.625,35.0,35.0,,action tocompare,,"
-    Add to Compare
-",True
-129,LI,1025.84375,1002.78125,1512.09375,765.78125,237.0,486.25,,item product product-item,,"
+89,DIV,534.734375,726.796875,1241.734375,646.796875,80.0,707.0,,fotorama__arr fotorama__arr--next,,"
                 
-                                                            
-                        
-    
-        
-
-.product-image-container-91208 {
-    width: 240px;
-}
-.product-image-container-91208 span.product-image-wrapper {
-    padding-bottom: 125%;
-}prodImageContainers = document.querySelectorAll(.product-image-container-91208);
-for (var i = 0; i < prodImageContainers.length; i++) {
-    prodImageContainers[i].style.width = 240px;
-}
-prodImageContainersWrappers = document.querySelectorAll(
-    .product-image-container-91208  span.product-image-wrapper
-);
-for (var i = 0; i < prodImageContainersWrappers.length; i++) {
-    prodImageContainersWrappers[i].style.paddingBottom = 125%;
-}                    
-                    
-                                                
-                            
-                                Pepperidge Farm Milano Cookies, Raspberry Chocolate, 7 oz. Bag                            
-                        
-                                
-                
-            Rating:
-            
-                60%
-            
-                var elemk7Qv5tsWArray = document.querySelectorAll('#rating-result_91208 span');
-    if(elemk7Qv5tsWArray.length !== 'undefined'){
-        elemk7Qv5tsWArray.forEach(function(element) {
-            if (element) {
-                element.style.width = '60%';
-
-            }
-        });
-    }        
-                
-            1                 Review                
-            
-        
-    
-                        
-    
-
-
-        $83.76
-        
-
-
-                        
-                        
-                            
-                                
-                                                                                                                    
-                                                                                                                                    
-                                            
-                                                                                        
-                                                Add to Cart
-                                            
-                                        
-                                                                    
-                                                                
-                                                                                
-        Add to Wish List
-    
-
-    Add to Compare
-
-                                                                    
-                                                            
-                                                    
-                    
-                
-                            ",False
-130,SPAN,1025.84375,1002.78125,1322.09375,765.78125,237.0,296.25,,product-image-container product-image-container-91208,,"
-    
-        
-",False
-131,SPAN,1025.84375,1002.78125,1322.09375,765.78125,237.0,296.25,,product-image-wrapper,,"
-        ",False
-132,IMG,1025.84375,1002.78125,1322.09375,765.78125,237.0,296.25,"Image, description: a package of milano raspberry with chocolate cookies, url: http://treble.cs.cmu.edu:7770/media/catalog/product/cache/89ff578b9cd87e0600daac45c9e1ea98/B/0/B00JK04QK6.0.jpg",product-image-photo,,,True
-133,A,1332.09375,988.78125,1371.09375,765.78125,223.0,39.0,,product-item-link,,"
-                                Pepperidge Farm Milano Cookies, Raspberry Chocolate, 7 oz. Bag                            ",True
-134,SPAN,1381.09375,760.78125,1382.09375,759.78125,1.0,1.0,,label,,Rating:,False
-135,SPAN,1381.09375,806.78125,1400.09375,759.78125,47.0,19.0,,,,Rating:,False
-136,SPAN,1382.09375,815.78125,1410.09375,755.78125,60.0,28.0,,,,60%,False
-137,SPAN,1409.09375,814.78125,1410.09375,754.78125,60.0,1.0,,,,60%,False
-138,A,1388.09375,912.78125,1404.09375,860.78125,52.0,16.0,,action view,,"1                 Review                
             ",True
-139,SPAN,1422.09375,809.78125,1441.09375,765.78125,44.0,19.0,,price-container price-final_price tax weee,,"
-        $83.76
-        ",False
-140,SPAN,1422.09375,809.78125,1441.09375,765.78125,44.0,19.0,,price-wrapper ,product-price-91208,$83.76,False
-141,SPAN,1422.09375,809.78125,1441.09375,765.78125,44.0,19.0,,price,,$83.76,False
-142,BUTTON,1468.59375,877.78125,1500.59375,765.78125,112.0,32.0,,action tocart primary,,"
-                                                Add to Cart
-                                            ",True
-143,A,1467.09375,912.78125,1502.09375,877.78125,35.0,35.0,,action towishlist,,"
-        Add to Wish List
-    ",True
-144,A,1467.09375,951.78125,1502.09375,916.78125,35.0,35.0,,action tocompare,,"
-    Add to Compare
+90,DIV,1241.734375,50.0,1335.734375,20.0,30.0,94.0,,fotorama__thumb__arr fotorama__thumb__arr--left fotorama__arr--disabled,,"
+                    
+                ",True
+91,DIV,1243.734375,110.0,1333.734375,20.0,90.0,90.0,,fotorama__thumb-border,,,False
+92,DIV,1241.734375,112.0,1335.734375,20.0,92.0,94.0,,fotorama__nav__frame fotorama__nav__frame--thumb fotorama__active,,"
+    
+    
 ",True
-145,SPAN,1659.09375,1112.0,1678.09375,1076.0,36.0,19.0,,,,Show,False
-146,SELECT,1652.09375,1181.0,1684.09375,1123.0,58.0,32.0,,limiter-options,limiter,"
-                            
-                    12                
-                            
-                    24                
-                            
-                    36                
-                    ",True
-147,SPAN,1659.09375,1250.0,1678.09375,1190.0,60.0,19.0,,limiter-text,,per page,False
-148,LI,505.296875,201.859375,565.296875,20.0,181.859375,60.0,,item,,"
-                Price
-                $80.00 - $89.99
-                                    
-                        Remove This Item
+93,DIV,1241.734375,202.0,1335.734375,112.0,90.0,94.0,,fotorama__nav__frame fotorama__nav__frame--thumb,,"
+    
+    
+",True
+94,DIV,1241.734375,726.796875,1335.734375,696.796875,30.0,94.0,,fotorama__thumb__arr fotorama__thumb__arr--right fotorama__arr--disabled,,"
                     
-                            ",False
-149,SPAN,505.296875,201.859375,525.296875,20.0,181.859375,20.0,,filter-label,,Price,False
-150,SPAN,525.296875,121.0,544.296875,20.0,101.0,19.0,,filter-value,,$80.00 - $89.99,False
-151,A,525.296875,178.0,564.296875,20.0,158.0,39.0,,action remove,,"
-                        Remove This Item
-                    ",True
-152,A,575.296875,76.0,594.296875,20.0,56.0,19.0,,action clear filter-clear,,Clear All,True
-153,DIV,731.296875,226.65625,751.296875,20.0,206.65625,20.0,,empty,,You have no items to compare.,False
-154,LI,827.296875,226.65625,987.296875,20.0,206.65625,160.0,,product-item,,"
+                ",True
+95,A,1334.734375,20.0,1335.734375,19.0,1.0,1.0,,action skip gallery-prev-area,,"
+    
+        Skip to the beginning of the images gallery    
+",True
+96,DIV,1360.734375,109.0,1392.734375,20.0,89.0,32.0,,data item title active,tab-label-description,"
                     
-                        
-                            Add to Cart
-                        
-                        
-                            
-                        
+                        Details                    
+                ",True
+97,A,1360.734375,109.0,1392.734375,20.0,89.0,32.0,,data switch,tab-label-description-title,"
+                        Details                    ",True
+98,H2,1437.734375,1240.0,1466.328125,40.0,1200.0,28.59375,,,,Product Quick Look,False
+99,LI,1486.328125,1240.0,1526.328125,80.0,1160.0,40.0,,,,"BETTER AND DELICIOUS - NUT like your average peanut butter cookie. These grain-free bad boys are made from blanched almond flour, peanut butter, organic coconut sugar and a touch of vanilla. Nutrient dense and high in protein, this is one satisfying cookie. Perfect for snacking or sharing (if you haven’t eaten them all first).",False
+100,SPAN,1486.328125,1203.0,1525.328125,80.0,1123.0,39.0,,a-list-item,,"BETTER AND DELICIOUS - NUT like your average peanut butter cookie. These grain-free bad boys are made from blanched almond flour, peanut butter, organic coconut sugar and a touch of vanilla. Nutrient dense and high in protein, this is one satisfying cookie. Perfect for snacking or sharing (if you haven’t eaten them all first).",False
+101,LI,1536.328125,1240.0,1576.328125,80.0,1160.0,40.0,,,,"REAL FOOD FOR REAL PEOPLE - We ensure nothing artificial or refined ever darkens our doors. We are stubbornly dedicated to being better and delicious, guaranteeing that our food always makes you feel Heck Yeah!",False
+102,SPAN,1536.328125,1236.0,1575.328125,80.0,1156.0,39.0,,a-list-item,,"REAL FOOD FOR REAL PEOPLE - We ensure nothing artificial or refined ever darkens our doors. We are stubbornly dedicated to being better and delicious, guaranteeing that our food always makes you feel Heck Yeah!",False
+103,LI,1586.328125,1240.0,1626.328125,80.0,1160.0,40.0,,,,"JUST THE GOOD STUFF - All our food is made with simple, wholesome ingredients that are sustainably sourced. Instead of long ingredients lists with names you don’t understand, you’ll find cage-free eggs, almonds, coconut, and refined sugar-free chocolate chips.",False
+104,SPAN,1586.328125,1187.0,1625.328125,80.0,1107.0,39.0,,a-list-item,,"JUST THE GOOD STUFF - All our food is made with simple, wholesome ingredients that are sustainably sourced. Instead of long ingredients lists with names you don’t understand, you’ll find cage-free eggs, almonds, coconut, and refined sugar-free chocolate chips.",False
+105,LI,1636.328125,1240.0,1676.328125,80.0,1160.0,40.0,,,,"FEEL LIKE A SUPERHERO - We make food for everybody that every body wants. Our cookies are Grain-Free, Gluten-Free, Refined Sugar Free, No-Soy, Dairy-Free, Non-GMO, Paleo Friendly, and Nutrient Dense!",False
+106,SPAN,1636.328125,1209.0,1675.328125,80.0,1129.0,39.0,,a-list-item,,"FEEL LIKE A SUPERHERO - We make food for everybody that every body wants. Our cookies are Grain-Free, Gluten-Free, Refined Sugar Free, No-Soy, Dairy-Free, Non-GMO, Paleo Friendly, and Nutrient Dense!",False
+107,LI,1686.328125,1240.0,1726.328125,80.0,1160.0,40.0,,,,"INGREDIENTS - Blanched almond flour, creamy peanut butter (natural), organic palm shortening, egg, raw honey, organic coconut palm sugar, organic coconut flour, vanilla flavor, sea salt, baking soda Contains: egg, peanut, almond, coconut",False
+108,SPAN,1686.328125,1225.0,1725.328125,80.0,1145.0,39.0,,a-list-item,,"INGREDIENTS - Blanched almond flour, creamy peanut butter (natural), organic palm shortening, egg, raw honey, organic coconut palm sugar, organic coconut flour, vanilla flavor, sea salt, baking soda Contains: egg, peanut, almond, coconut",False
+109,DIV,1360.734375,239.0,1391.734375,114.0,125.0,31.0,,data item title ,tab-label-reviews,"
                     
-                    
-                        
-                            NOZE Rustic Coat Rack Wall Mounted Shelf with 4 Hooks, Hanging Entryway Organizer for Mug Coffee Cup, Holding Solid Wooden Shelf with 2 Baskets for Kitchen Living Room, Bathroom and Bedroom
-                        
-                    
-                ",False
-155,SPAN,826.296875,47.0,885.296875,19.0,28.0,59.0,,,,Add to Cart,False
-156,INPUT,831.296875,33.0,844.296875,20.0,13.0,13.0,,checkbox,reorder-item-490,,True
-157,A,827.296875,223.0,986.296875,38.0,185.0,159.0,,product-item-link,,"
-                            NOZE Rustic Coat Rack Wall Mounted Shelf with 4 Hooks, Hanging Entryway Organizer for Mug Coffee Cup, Holding Solid Wooden Shelf with 2 Baskets for Kitchen Living Room, Bathroom and Bedroom
-                        ",True
-158,LI,997.296875,226.65625,1117.296875,20.0,206.65625,120.0,,product-item,,"
-                    
-                        
-                            Add to Cart
-                        
-                        
-                            
-                        
-                    
-                    
-                        
-                            Plus Size Lingerie for Women Sexy for Sex Naughty Eyelash Lace Bodysuit Naughty Mesh One Piece Teddy Bodysuit Outfits
-                        
-                    
-                ",False
-159,SPAN,996.296875,47.0,1055.296875,19.0,28.0,59.0,,,,Add to Cart,False
-160,INPUT,1001.296875,33.0,1014.296875,20.0,13.0,13.0,,checkbox,reorder-item-491,,True
-161,A,997.296875,211.0,1116.296875,38.0,173.0,119.0,,product-item-link,,"
-                            Plus Size Lingerie for Women Sexy for Sex Naughty Eyelash Lace Bodysuit Naughty Mesh One Piece Teddy Bodysuit Outfits
-                        ",True
-162,LI,1127.296875,226.65625,1187.296875,20.0,206.65625,60.0,,product-item,,"
-                    
-                        
-                            Add to Cart
-                        
-                        
-                            
-                        
-                    
-                    
-                        
-                            Uttermost Volterra Crackled Taupe-Gray Ceramic Table Lamp
-                        
-                    
-                ",False
-163,SPAN,1126.296875,47.0,1185.296875,19.0,28.0,59.0,,,,Add to Cart,False
-164,INPUT,1131.296875,33.0,1144.296875,20.0,13.0,13.0,,checkbox,reorder-item-489,,True
-165,A,1127.296875,224.0,1186.296875,38.0,186.0,59.0,,product-item-link,,"
-                            Uttermost Volterra Crackled Taupe-Gray Ceramic Table Lamp
-                        ",True
-166,BUTTON,1204.296875,132.0,1236.296875,20.0,112.0,32.0,,action tocart primary,,"
-                        Add to Cart
-                    ",True
-167,A,1210.296875,198.0,1230.296875,146.0,52.0,20.0,,action view,,"
-                        View All
-                    ",True
-168,SPAN,1279.296875,172.0,1295.296875,124.0,48.0,16.0,,counter,,10 items,False
-169,LI,1312.296875,226.65625,1445.296875,20.0,206.65625,133.0,,product-item,,"
-                        
-                            
-                                
-
-    
-        
-    
-
-
-                            
-                            
-                                
-                                    
-                                        Star Wars Crazy Boxers Hoth Men's Boxer Brief
-                                    
-                                
-                                        
-        
-
-
-        $7.49
-        
-    
-
-                                
-                                    
-                                    
-                                        
-                                        
-                                            Add to Cart
-                                        
-                                        
-                                        
-                                    
-                                    
-                                    
-                                        
-                                            Remove This Item
-                                        
-                                    
-                                
-                            
-                        
-                    ",False
-170,SPAN,1312.296875,57.5,1357.296875,20.0,37.5,45.0,,product-image-container,,"
-    
-        
-    
-",False
-171,SPAN,1312.296875,57.5,1357.296875,20.0,37.5,45.0,,product-image-wrapper,,"
-        
-    ",False
-172,IMG,1312.296875,57.5,1357.296875,20.0,37.5,45.0,"Image, description: crazy boxer - star wars - luke - luke - luke - luke, url: http://treble.cs.cmu.edu:7770/media/catalog/product/cache/df4ca6dcede171688e7ab9291cc8bc6c/B/0/B08FXR3VVH.0.jpg",product-image-photo,,,True
-173,A,1312.296875,192.5,1371.296875,67.5,125.0,59.0,,product-item-link,,"
-                                        Star Wars Crazy Boxers Hoth Men's Boxer Brief
-                                    ",True
-174,P,1379.296875,226.65625,1399.296875,20.0,206.65625,20.0,,price-as-configured,,"
-        
-
-
-        $7.49
-        
-    ",False
-175,SPAN,1379.296875,56.0,1398.296875,20.0,36.0,19.0,,price-container price-configured_price tax weee,,"
-        $7.49
-        ",False
-176,SPAN,1379.296875,56.0,1398.296875,20.0,36.0,19.0,,price-wrapper ,product-price-94600,$7.49,False
-177,SPAN,1379.296875,56.0,1398.296875,20.0,36.0,19.0,,price,,$7.49,False
-178,A,1409.296875,132.0,1445.296875,20.0,112.0,36.0,,action tocart primary,,"
-                                            Add to Cart
-                                        ",True
-179,A,1311.296875,226.65625,1335.296875,197.65625,29.0,24.0,,btn-remove action delete,,"
-                                            Remove This Item
-                                        ",True
-180,LI,1465.296875,226.65625,1674.296875,20.0,206.65625,209.0,,product-item,,"
-                        
-                            
-                                
-
-    
-        
-    
-
-
-                            
-                            
-                                
-                                    
-                                        YJYDD Microwave Stand Kitchen Utility Storage Shelf Baker's Rack Microwave Stand Cart Wheels Office Microwave Oven Stand Storage Shelf
-                                    
-                                
-                                        
-        
-
-
-        $180.13
-        
-    
-
-                                
-                                    
-                                    
-                                        
-                                        
-                                            
-                                                Add to Cart
-                                            
-                                        
-                                    
-                                    
-                                    
-                                        
-                                            Remove This Item
-                                        
-                                    
-                                
-                            
-                        
-                    ",False
-181,SPAN,1465.296875,57.5,1510.296875,20.0,37.5,45.0,,product-image-container,,"
-    
-        
-    
-",False
-182,SPAN,1465.296875,57.5,1510.296875,20.0,37.5,45.0,,product-image-wrapper,,"
-        
-    ",False
-183,IMG,1465.296875,57.5,1510.296875,20.0,37.5,45.0,"Image, description: a kitchen with a microwave and a refrigerator, url: http://treble.cs.cmu.edu:7770/media/catalog/product/cache/df4ca6dcede171688e7ab9291cc8bc6c/B/0/B09PV6FT6L.0.jpg",product-image-photo,,,True
-184,A,1465.296875,199.5,1604.296875,20.0,179.5,139.0,,product-item-link,,"
-                                        YJYDD Microwave Stand Kitchen Utility Storage Shelf Baker's Rack Microwave Stand Cart Wheels Office Microwave Oven Stand Storage Shelf
-                                    ",True
-185,P,1612.296875,226.65625,1632.296875,20.0,206.65625,20.0,,price-as-configured,,"
-        
-
-
-        $180.13
-        
-    ",False
-186,SPAN,1612.296875,72.0,1631.296875,20.0,52.0,19.0,,price-container price-configured_price tax weee,,"
-        $180.13
-        ",False
-187,SPAN,1612.296875,72.0,1631.296875,20.0,52.0,19.0,,price-wrapper ,product-price-35980,$180.13,False
-188,SPAN,1612.296875,72.0,1631.296875,20.0,52.0,19.0,,price,,$180.13,False
-189,BUTTON,1642.296875,132.0,1674.296875,20.0,112.0,32.0,,action tocart primary,,"
-                                                Add to Cart
-                                            ",True
-190,A,1464.296875,226.65625,1488.296875,197.65625,29.0,24.0,,btn-remove action delete,,"
-                                            Remove This Item
-                                        ",True
-191,LI,1694.296875,226.65625,1863.296875,20.0,206.65625,169.0,,product-item,,"
-                        
-                            
-                                
-
-    
-        
-    
-
-
-                            
-                            
-                                
-                                    
-                                        Elmwood Inn Fine Teas, Orange Vanilla Caffeine-free Fruit Infusion, 16-Ounce Pouch
-                                    
-                                
-                                        
-        
-
-
-        $19.36
-        
-    
-
-                                
-                                    
-                                    
-                                        
-                                        
-                                            
-                                                Add to Cart
-                                            
-                                        
-                                    
-                                    
-                                    
-                                        
-                                            Remove This Item
-                                        
-                                    
-                                
-                            
-                        
-                    ",False
-192,SPAN,1694.296875,57.5,1739.296875,20.0,37.5,45.0,,product-image-container,,"
-    
-        
-    
-",False
-193,SPAN,1694.296875,57.5,1739.296875,20.0,37.5,45.0,,product-image-wrapper,,"
-        
-    ",False
-194,IMG,1694.296875,57.5,1739.296875,20.0,37.5,45.0,"Image, description: a bag of black tea with a label on it, url: http://treble.cs.cmu.edu:7770/media/catalog/product/cache/df4ca6dcede171688e7ab9291cc8bc6c/B/0/B0040WHKIY.0.jpg",product-image-photo,,,True
-195,A,1694.296875,186.5,1793.296875,20.0,166.5,99.0,,product-item-link,,"
-                                        Elmwood Inn Fine Teas, Orange Vanilla Caffeine-free Fruit Infusion, 16-Ounce Pouch
-                                    ",True
-196,P,1801.296875,226.65625,1821.296875,20.0,206.65625,20.0,,price-as-configured,,"
-        
-
-
-        $19.36
-        
-    ",False
-197,SPAN,1801.296875,64.0,1820.296875,20.0,44.0,19.0,,price-container price-configured_price tax weee,,"
-        $19.36
-        ",False
-198,SPAN,1801.296875,64.0,1820.296875,20.0,44.0,19.0,,price-wrapper ,product-price-104497,$19.36,False
-199,SPAN,1801.296875,64.0,1820.296875,20.0,44.0,19.0,,price,,$19.36,False
-200,BUTTON,1831.296875,132.0,1863.296875,20.0,112.0,32.0,,action tocart primary,,"
-                                                Add to Cart
-                                            ",True
-201,A,1693.296875,226.65625,1717.296875,197.65625,29.0,24.0,,btn-remove action delete,,"
-                                            Remove This Item
-                                        ",True
-202,A,1883.296875,119.0,1903.296875,20.0,99.0,20.0,,action details,,"
-                            Go to Wish List
-                        ",True
-203,SPAN,1993.296875,937.0,1994.296875,936.0,1.0,1.0,,label,,"
+                        Reviews 12                    
+                ",True
+110,A,1360.734375,239.0,1391.734375,114.0,125.0,31.0,,data switch,tab-label-reviews-title,"
+                        Reviews 12                    ",True
+111,SPAN,2004.328125,937.0,2005.328125,936.0,1.0,1.0,,label,,"
                             Sign Up for Our Newsletter:                        ",False
-204,INPUT,1994.296875,1157.0,2026.296875,937.0,220.0,32.0,,,newsletter,,True
-205,BUTTON,1994.296875,1260.0,2026.296875,1161.0,99.0,32.0,,action subscribe primary,,"
+112,INPUT,2005.328125,1157.0,2037.328125,937.0,220.0,32.0,,,newsletter,,True
+113,BUTTON,2005.328125,1260.0,2037.328125,1161.0,99.0,32.0,,action subscribe primary,,"
                     Subscribe
                 ",True
-206,LI,1994.296875,187.0,2014.296875,20.0,167.0,20.0,,nav item,,Privacy and Cookie Policy,False
-207,A,1994.296875,187.0,2013.296875,20.0,167.0,19.0,,,,Privacy and Cookie Policy,True
-208,LI,2022.296875,187.0,2042.296875,20.0,167.0,20.0,,nav item,,Search Terms,False
-209,A,2022.296875,111.0,2041.296875,20.0,91.0,19.0,,,,Search Terms,True
-210,LI,2050.296875,187.0,2070.296875,20.0,167.0,20.0,,nav item,,Advanced Search,False
-211,A,2050.296875,136.0,2069.296875,20.0,116.0,19.0,,,,Advanced Search,True
-212,LI,2078.296875,187.0,2098.296875,20.0,167.0,20.0,,nav item,,Contact Us,False
-213,A,2078.296875,92.0,2097.296875,20.0,72.0,19.0,,,,Contact Us,True
-214,SPAN,2146.296875,351.0,2162.296875,20.0,331.0,16.0,,,,"Copyright © 2013-present Magento, Inc. All rights reserved.",False
-215,SPAN,2183.4375,194.0,2199.4375,20.0,174.0,16.0,,,,Help Us Keep Magento Healthy,False
-216,A,2183.4375,282.0,2199.4375,197.0,85.0,16.0,,,,"
+114,LI,2005.328125,187.0,2025.328125,20.0,167.0,20.0,,nav item,,Privacy and Cookie Policy,False
+115,A,2005.328125,187.0,2024.328125,20.0,167.0,19.0,,,,Privacy and Cookie Policy,True
+116,LI,2033.328125,187.0,2053.328125,20.0,167.0,20.0,,nav item,,Search Terms,False
+117,A,2033.328125,111.0,2052.328125,20.0,91.0,19.0,,,,Search Terms,True
+118,LI,2061.328125,187.0,2081.328125,20.0,167.0,20.0,,nav item,,Advanced Search,False
+119,A,2061.328125,136.0,2080.328125,20.0,116.0,19.0,,,,Advanced Search,True
+120,LI,2089.328125,187.0,2109.328125,20.0,167.0,20.0,,nav item,,Orders and Returns,False
+121,A,2089.328125,154.0,2108.328125,20.0,134.0,19.0,,,,Orders and Returns,True
+122,LI,2117.328125,187.0,2137.328125,20.0,167.0,20.0,,nav item,,Contact Us,False
+123,A,2117.328125,92.0,2136.328125,20.0,72.0,19.0,,,,Contact Us,True
+124,SPAN,2185.328125,351.0,2201.328125,20.0,331.0,16.0,,,,"Copyright © 2013-present Magento, Inc. All rights reserved.",False
+125,SPAN,2222.46875,194.0,2238.46875,20.0,174.0,16.0,,,,Help Us Keep Magento Healthy,False
+126,A,2222.46875,282.0,2238.46875,197.0,85.0,16.0,,,,"
         Report All Bugs    ",True
-217,ASIDE,0.0,1280.0,2048.0,0.0,1280.0,2048.0,,"modal-popup popup-authentication
+127,ASIDE,0.0,1280.0,2048.0,0.0,1280.0,2048.0,,"modal-popup popup-authentication
                modal-slide
                _inner-scroll",,"
     
@@ -1230,23 +483,23 @@ for (var i = 0; i < prodImageContainersWrappers.length; i++) {
     
     
 ",True
-218,BUTTON,-798.5625,1024.0,-744.5625,952.0,72.0,54.0,,action-close,,"
+128,BUTTON,-798.5625,1024.0,-744.5625,952.0,72.0,54.0,,action-close,,"
                 Close
             ",True
-219,P,-646.28125,610.0,-626.28125,286.0,324.0,20.0,,,,Creating an account has many benefits:,False
-220,LI,-616.28125,610.0,-596.28125,296.0,314.0,20.0,,,,See order and shipping status,False
-221,LI,-586.28125,610.0,-566.28125,296.0,314.0,20.0,,,,Track order history,False
-222,LI,-556.28125,610.0,-536.28125,296.0,314.0,20.0,,,,Check out faster,False
-223,A,-452.28125,610.0,-400.28125,408.0,202.0,52.0,,action action-register primary,,"
+129,P,-646.28125,610.0,-626.28125,286.0,324.0,20.0,,,,Creating an account has many benefits:,False
+130,LI,-616.28125,610.0,-596.28125,296.0,314.0,20.0,,,,See order and shipping status,False
+131,LI,-586.28125,610.0,-566.28125,296.0,314.0,20.0,,,,Track order history,False
+132,LI,-556.28125,610.0,-536.28125,296.0,314.0,20.0,,,,Check out faster,False
+133,A,-452.28125,610.0,-400.28125,408.0,202.0,52.0,,action action-register primary,,"
                         Create an Account
                     ",True
-224,SPAN,-640.28125,777.0,-621.28125,681.0,96.0,19.0,,,,Email Address,False
-225,INPUT,-620.28125,994.0,-588.28125,681.0,313.0,32.0,,input-text,customer-email,,True
-226,SPAN,-553.28125,745.0,-534.28125,681.0,64.0,19.0,,,,Password,False
-227,INPUT,-533.28125,994.0,-501.28125,681.0,313.0,32.0,,input-text,pass,,True
-228,BUTTON,-472.28125,994.0,-420.28125,897.0,97.0,52.0,,action action-login secondary,send2,"
+134,SPAN,-640.28125,777.0,-621.28125,681.0,96.0,19.0,,,,Email Address,False
+135,INPUT,-620.28125,994.0,-588.28125,681.0,313.0,32.0,,input-text,customer-email,,True
+136,SPAN,-553.28125,745.0,-534.28125,681.0,64.0,19.0,,,,Password,False
+137,INPUT,-533.28125,994.0,-501.28125,681.0,313.0,32.0,,input-text,pass,,True
+138,BUTTON,-472.28125,994.0,-420.28125,897.0,97.0,52.0,,action action-login secondary,send2,"
                                 Sign In
                             ",True
-229,A,-456.28125,831.0,-436.28125,681.0,150.0,20.0,,action,,"
+139,A,-456.28125,831.0,-436.28125,681.0,150.0,20.0,,action,,"
                                 Forgot Your Password?
                             ",True

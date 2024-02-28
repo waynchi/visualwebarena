@@ -148,6 +148,7 @@ def config() -> argparse.Namespace:
     parser.add_argument("--provider", type=str, default="openai")
     parser.add_argument("--model", type=str, default="gpt-3.5-turbo-0613")
     parser.add_argument("--mode", type=str, default="chat")
+    parser.add_argument("--no_text_observation", action="store_true")
     parser.add_argument("--temperature", type=float, default=1.0)
     parser.add_argument("--top_p", type=float, default=0.9)
     parser.add_argument("--context_length", type=int, default=0)

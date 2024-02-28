@@ -39,13 +39,12 @@ class PromptConstructor(object):
     def get_lm_api_input(
         self, intro: str, examples: list[tuple[str, str]], current: str
     ) -> APIInput:
-
         """Return the require format for an API"""
         message: list[dict[str, str]] | str
         if "openai" in self.lm_config.provider:
             if self.lm_config.mode == "chat":
                 message = [{"role": "system", "content": intro}]
-                for (x, y) in examples:
+                for x, y in examples:
                     message.append(
                         {
                             "role": "system",
@@ -180,12 +179,21 @@ class DirectPromptConstructor(PromptConstructor):
         previous_action_str = meta_data["action_history"][-1]
 
         # input x
-        current = template.format(
-            objective=intent,
-            url=self.map_url_to_real(url),
-            observation=obs,
-            previous_action=previous_action_str,
-        )
+        breakpoint()
+        if self.lm_config.gen_config["no_text_observation"]:
+            print("NO TEXT OBSERVATION")
+            current = template.format(
+                objective=intent,
+                url=self.map_url_to_real(url),
+                previous_action=previous_action_str,
+            )
+        else:
+            current = template.format(
+                objective=intent,
+                url=self.map_url_to_real(url),
+                observation=obs,
+                previous_action=previous_action_str,
+            )
 
         # make sure all keywords are replaced
         assert all([f"{{k}}" not in current for k in keywords])
@@ -199,9 +207,7 @@ class DirectPromptConstructor(PromptConstructor):
         if match:
             return match.group(1).strip()
         else:
-            raise ActionParsingError(
-                f"Cannot parse action from response {response}"
-            )
+            raise ActionParsingError(f"Cannot parse action from response {response}")
 
 
 class CoTPromptConstructor(PromptConstructor):
@@ -236,12 +242,21 @@ class CoTPromptConstructor(PromptConstructor):
         page = state_info["info"]["page"]
         url = page.url
         previous_action_str = meta_data["action_history"][-1]
-        current = template.format(
-            objective=intent,
-            url=self.map_url_to_real(url),
-            observation=obs,
-            previous_action=previous_action_str,
-        )
+        breakpoint()
+        if self.lm_config.gen_config["no_text_observation"]:
+            print("NO TEXT OBSERVATION")
+            current = template.format(
+                objective=intent,
+                url=self.map_url_to_real(url),
+                previous_action=previous_action_str,
+            )
+        else:
+            current = template.format(
+                objective=intent,
+                url=self.map_url_to_real(url),
+                observation=obs,
+                previous_action=previous_action_str,
+            )
 
         assert all([f"{{k}}" not in current for k in keywords])
 
@@ -291,7 +306,9 @@ class MultimodalCoTPromptConstructor(CoTPromptConstructor):
         max_obs_length = self.lm_config.gen_config["max_obs_length"]
         if max_obs_length:
             if self.lm_config.provider == "google":
-                print("NOTE: This is a Gemini model, so we use characters instead of tokens for max_obs_length.")
+                print(
+                    "NOTE: This is a Gemini model, so we use characters instead of tokens for max_obs_length."
+                )
                 obs = obs[:max_obs_length]
             else:
                 obs = self.tokenizer.decode(self.tokenizer.encode(obs)[:max_obs_length])  # type: ignore[arg-type]
@@ -299,12 +316,20 @@ class MultimodalCoTPromptConstructor(CoTPromptConstructor):
         page = state_info["info"]["page"]
         url = page.url
         previous_action_str = meta_data["action_history"][-1]
-        current = template.format(
-            objective=intent,
-            url=self.map_url_to_real(url),
-            observation=obs,
-            previous_action=previous_action_str,
-        )
+        if self.lm_config.gen_config["no_text_observation"]:
+            print("NO TEXT OBSERVATION")
+            current = template.format(
+                objective=intent,
+                url=self.map_url_to_real(url),
+                previous_action=previous_action_str,
+            )
+        else:
+            current = template.format(
+                objective=intent,
+                url=self.map_url_to_real(url),
+                observation=obs,
+                previous_action=previous_action_str,
+            )
 
         assert all([f"{{k}}" not in current for k in keywords])
 
@@ -331,7 +356,7 @@ class MultimodalCoTPromptConstructor(CoTPromptConstructor):
                         "content": [{"type": "text", "text": intro}],
                     }
                 ]
-                for (x, y, z) in examples:
+                for x, y, z in examples:
                     example_img = Image.open(z)
                     message.append(
                         {
@@ -345,9 +370,7 @@ class MultimodalCoTPromptConstructor(CoTPromptConstructor):
                                 },
                                 {
                                     "type": "image_url",
-                                    "image_url": {
-                                        "url": pil_to_b64(example_img)
-                                    },
+                                    "image_url": {"url": pil_to_b64(example_img)},
                                 },
                             ],
                         }
@@ -399,7 +422,7 @@ class MultimodalCoTPromptConstructor(CoTPromptConstructor):
                     intro,
                     "Here are a few examples:",
                 ]
-                for (x, y, z) in examples:
+                for x, y, z in examples:
                     example_img = Image.open(z)
                     message.append(f"Observation\n:{x}\n")
                     message.extend(

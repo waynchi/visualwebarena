@@ -23,11 +23,11 @@ def json_to_csv_with_pandas(json_files, categories, csv_file):
 
 # List of JSON files to be converted
 categories = ["classifieds", "reddit", "shopping"]
-template = "results/successful_{}_gpt4_som_2/results.json"
+template = "results/no_text_observation_1/successful_{}_gpt4_som/results.json"
 json_files = [template.format(category) for category in categories]
 
 # CSV file to be created
-csv_file = "results/successful_gpt4_som_2.csv"
+csv_file = "results/no_text_observation_2/successful_gpt4_som_no_text_observation.csv"
 
 # Call the function
 json_to_csv_with_pandas(json_files, categories, csv_file)
